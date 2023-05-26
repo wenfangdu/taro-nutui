@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import '@/test'
 import { reactive, toRefs } from 'vue';
 import { Dongdong } from '@nutui/icons-vue-taro';
 export default {
@@ -49,5 +50,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background: url('~@/img.png');
 }
 </style>
