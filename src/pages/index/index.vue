@@ -30,10 +30,8 @@
       })
 
       const handleClick = (type, msg, cover = false) => {
-        state.show = true
-        state.msg2 = msg
-        state.type = type
-        state.cover = cover
+        Promise.resolve().then(console.log)
+        Promise.resolve().then(() => console.log('called'))
       }
 
       return {
