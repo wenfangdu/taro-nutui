@@ -15,8 +15,8 @@
 <script>
   import { reactive, toRefs } from 'vue'
   import { Dongdong } from '@nutui/icons-vue-taro'
+
   export default {
-    name: 'Index',
     components: {
       Dongdong,
     },
