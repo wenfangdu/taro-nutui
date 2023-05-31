@@ -1,8 +1,9 @@
 <template>
   <view class="index">
     <view>
-      <img src="" alt="" />
+      <img :src="img" alt="" />
     </view>
+    <view :style="{ width: '300px', height: '300px', background: `url(${img})` }"></view>
     {{ msg }}
     <Dongdong />
     <view class="btn">
@@ -15,6 +16,7 @@
 <script>
   import { reactive, toRefs } from 'vue'
   import { Dongdong } from '@nutui/icons-vue-taro'
+  import img from '@/img.png'
 
   export default {
     components: {
@@ -39,6 +41,7 @@
       return {
         ...toRefs(state),
         handleClick,
+        img,
       }
     },
   }
