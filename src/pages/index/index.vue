@@ -15,6 +15,7 @@
 <script>
   import { reactive, toRefs } from 'vue'
   import { Dongdong } from '@nutui/icons-vue-taro'
+  import Taro from '@tarojs/taro'
 
   export default {
     components: {
@@ -34,6 +35,7 @@
         state.msg2 = msg
         state.type = type
         state.cover = cover
+        Taro.getAccountInfoSync()
       }
 
       return {
