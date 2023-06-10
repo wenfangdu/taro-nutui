@@ -36,10 +36,11 @@ const config = {
   sass: {
     data: `@import "@nutui/nutui-taro/dist/styles/variables.scss";`,
   },
+  alias: {
+    '@': join(__dirname, '..', 'src'),
+  },
   mini: {
     webpackChain(chain) {
-      chain.resolve.alias.set('@', join(__dirname, '..', 'src'))
-
       chain.plugin('unplugin-vue-components').use(
         Components({
           resolvers: [NutUIResolver({ taro: true })],
