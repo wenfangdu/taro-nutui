@@ -51,9 +51,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    // not working
     background: url('~@/img.png');
-    // working
-    // background: url('../../img.png');
   }
 </style>
