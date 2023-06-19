@@ -10,6 +10,7 @@
     </view>
     <nut-toast :msg="msg2" v-model:visible="show" :type="type" :cover="cover" />
     <button>Click Me</button>
+    <taro-button-core>Click Me</taro-button-core>
   </view>
 </template>
 
