@@ -9,6 +9,8 @@
       <nut-button type="primary" @click="handleClick('text', msg2, true)">点我</nut-button>
     </view>
     <nut-toast :msg="msg2" v-model:visible="show" :type="type" :cover="cover" />
+
+    <nut-searchbar v-model="msg3"></nut-searchbar>
   </view>
 </template>
 
@@ -24,6 +26,7 @@
       const state = reactive({
         msg: '欢迎使用 NutUI4.0 开发小程序',
         msg2: '你成功了～',
+        msg3: '',
         type: 'text',
         show: false,
         cover: false,
