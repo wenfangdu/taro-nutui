@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.0.9
     version: 0.0.9
   '@nutui/nutui-taro':
-    specifier: ^4.1.2
-    version: 4.1.2(unplugin-vue-components@0.25.1)
+    specifier: ^4.1.6
+    version: 4.1.6(unplugin-vue-components@0.25.1)
   '@tarojs/components':
     specifier: 3.6.11
     version: 3.6.11(postcss@8.4.23)(vue@3.3.4)
@@ -1755,8 +1755,8 @@ packages:
     resolution: {integrity: sha512-10VYAtFC+o1X0anGs+y2PgF1NWMeLFz2JVMRw4BWLg6wbtVbYy9wukLxyGhZC6Yf6t39DcwaGVda8paV7K6/Ew==}
     dev: false
 
-  /@nutui/nutui-taro@4.1.2(unplugin-vue-components@0.25.1):
-    resolution: {integrity: sha512-d5z0pU0AW/nXuI9gv+ARaSZtdRNwjVID5ihd1968kQ+akcKAcm2Ft1fgglgx5fLBZnUALyVrJTTJDBzz/Admcg==}
+  /@nutui/nutui-taro@4.1.6(unplugin-vue-components@0.25.1):
+    resolution: {integrity: sha512-dVrWm8Wzg4cVAY2rxO1llEvR7Wj7VlcZbwf3TMiQ0R46lne30IAmU43BzsXGythicDOSpmrOjexZPMhUM0y7JA==}
     peerDependencies:
       unplugin-vue-components: ^0.25.1
     peerDependenciesMeta:

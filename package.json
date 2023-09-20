@@ -51,7 +51,7 @@
     "@tarojs/plugin-html": "3.6.11",
     "@tarojs/plugin-framework-vue3": "3.6.11",
     "vue": "^3.3.4",
-    "@nutui/nutui-taro": "^4.1.2",
+    "@nutui/nutui-taro": "^4.1.6",
     "@nutui/icons-vue-taro": "^0.0.9"
   },
   "devDependencies": {
